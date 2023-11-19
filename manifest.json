@@ -1,0 +1,9 @@
+{
+    "name": "DevTools issue 141129 solution",
+    "version": "0.1",
+    "description": "A chrome developer tools extension for saving responses across main document refresh",
+	"devtools_page": "devtools.html",
+	"icons": {"16": "icon16.png","32": "icon32.png","48": "icon48.png","128": "icon128.png"},
+	"homepage_url": "https://github.com/devegied/ChromeIssue141129",
+    "manifest_version": 3
+}
