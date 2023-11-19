@@ -2,7 +2,7 @@
 
 ## Reasons
 
-Chrome browser tries a lot to be fastest of them all and use less resources. Regular users are happy but developers encounter some unusual behavior. For example there is [issue #141129](https://bugs.chromium.org/p/chromium/issues/detail?id=141129) where it is not possible to retrieve past request response body if that request was issued before last (top window) navigation. This extension partialy solves this issue by doing response body retrieval in Chrome DevTools immediately after request finishes.
+Chrome browser tries a lot to be fastest of them all and use less resources. Regular users are happy but developers encounter some unusual behavior. For example there is [issue #141129](https://bugs.chromium.org/p/chromium/issues/detail?id=141129) where it is not possible to retrieve past request response body in Chrome DevTools if that request was issued before last (top window) navigation. This extension partialy solves this issue by doing response body retrieval in Chrome DevTools immediately after request finishes.
 
 ## Usage
 
